@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+ 
+ 
+</head>
+<body>
+    <center> 
+    <form action="contact.html"> 
+    <table dir="rtl" border="1px" style="border-color: rgb(244, 239, 250);"> 
+        <tr>
+            <th>الاسم الاول</th>
+            <th> <input type="text" name="user name "  placeholder=" ضع اسمك الاول " style="padding: 8px;border: 2px" required></th>
+        </tr>
+        <tr>
+            <th>اسم الاب</th>
+            <th> <input type="text" name="father name"placeholder="ضع اسم الاب" style="padding: 8px;border: 2px" required></th>
+        </tr>
+        <tr>
+            <th>الكنيه</th>
+            <th> <input type="text" name="user name "  placeholder="ضع كنيتك" style="padding: 8px;border: 2px" required></th>
+        </tr>
+        <tr>
+            <th>البريد الاكتروني</th>
+            <th> <input type="email" name="email" placeholder="ضع بريدك الاكتروني" style="padding: 8px;border: 2px;" required></th>
+        </tr>
+        <tr>
+            <th>كلمه المرور</th>
+            <th> <input type="password" name="password"style="padding: 8px;border: 2px;" placeholder="ضع ثماني احرف على الاقل مع ارقام" maxlength="15" minlength="8" required></th>
+        </tr>
+        <tr>
+            <th > اختر جنسك</th>
+            <th><input type="radio" name="greedy" value="ذكر" required >ذكر
+                <input type="radio" name="greedy" value="انثى" required>انثى</th>
+        </tr>
+        <tr>
+            <th>اختر تاريخ ميلادك</th>
+            <th><input type="date" name="birth date" style="padding: 8px;border: 2px;"> </th>
+        </tr>
+        <tr>
+            <th>رقم الهاتف</th>
+            <th><input type="text" style="padding: 8px;border: 2px;" required placeholder="ضع رقم هاتفك" maxlength="15"></th>
+        </tr>
+        <tr>
+            <th>اختر دولتك</th>
+            <th>
+                <select name="country" id="" required>
+                    <optgroup label="افريقيا">
+                        <option value="المغرب"> المغرب</option>
+                        <option value="تونس"> تونس</option>
+                        <option value="الجزائر"> الجزائر</option>
+                        <option value="مصر"> مصر</option>
+                        <option value="مورتانيا"> مورتانيا</option>
+                        <option value="ليبيا"> ليبيا</option>
+                        <option value="الصومال"> الصومال</option>
+                        <option value="السودان"> السودان</option>
+                    </optgroup>
+                    <optgroup label="اسيا"> 
+                        <option value="سوريا">سوريا</option>
+                        <option value="لبنان"> لبنان</option>
+                        <option value="العراق"> العراق</option>
+                        <option value="اليمن"> اليمن</option>
+                        <option value="السعوديه"> السعوديه</option>
+                        <option value="الاردن"> الاردن</option>
+                        <option value="فلسطين"> فلسطين</option>
+                        </option>
+
+                    </optgroup>
+                </select>
+            </th>
+        </tr>
+    </table><br>
+    <hr style="height: 4px;width: 40%; background:coral;" dir="rtl">
+    <button type="submit" name="info "> <h3> انشئ حسابك </h3> </span></button> 
+ </form>
+ <hr  style="height: 2px;width:20%; background:coral;">
+ <form action="contact.html"><button type="submit" name> <h3>لدي حساب بالفعل </h3></button></form>
+ </center>
+</body>
+</html>
